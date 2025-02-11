@@ -59,7 +59,7 @@ struct PlayView: View {
                     Image(systemName: "backward.end.fill")
                         .font(.title)
                     Image(systemName: play ? "play.circle.fill" : "pause.circle.fill")
-                                .font(.largeTitle)
+                        .font(.system(size:60))
                                 .foregroundColor(.white)
                                 .onTapGesture {
                                     play.toggle()}
